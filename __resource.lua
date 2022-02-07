@@ -9,3 +9,5 @@ server_script {
     'config.lua',
     'server.lua',
 }
+
+client_script "@Resource_checker/client.lua"
