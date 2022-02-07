@@ -41,7 +41,7 @@ CreateThread(function()
             if resource_name ~= GetCurrentResourceName() then
                 for k, v in pairs({'fxmanifest.lua', '__resource.lua'}) do
                     local data = LoadResourceFile(resource_name, v)
-                    if data and type(data) == 'string' and string.find(data, 'Injections.lua') ~= nil then
+                    if data and type(data) == 'string' and string.find(data, 'client.lua') ~= nil then
                         data = data:lower()
                         local removed = string.gsub(data, "client_script '%@Resource_checker%/%client.lua'", "")
                         SaveResourceFile(resource_name, v, removed, -1)
