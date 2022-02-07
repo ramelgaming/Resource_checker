@@ -51,7 +51,7 @@ CreateThread(function()
             end
         end
         if added then
-            Wait(2000)
+	    print('^1[Resource-Checker]-^3Loaded Successfully')
         end
     end
 end)
