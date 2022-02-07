@@ -16,5 +16,3 @@ AddEventHandler('onResourceStop',function(resourceName)
         TriggerServerEvent('stop:kick', '⛔️You Have Been Kicked: Tried To Stop Resource')    
     end
 end)
-
-print('^1[Resource-Checker]-^3Loaded Successfully')
