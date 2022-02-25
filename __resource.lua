@@ -1,13 +1,11 @@
 description 'Resource Checker (AntiResource-Stop)'
 
-client_script {
+client_scripts {
     'config.lua',
     'client.lua',
 }
 
-server_script {
+server_scripts {
     'config.lua',
     'server.lua',
 }
-
-client_script "@Resource_checker/client.lua"
